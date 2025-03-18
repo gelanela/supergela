@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background: none;
+    border: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button,
+input {
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 40px;
+
+    border-bottom: 2px solid black;
+
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.434);
+    backdrop-filter: blur(12px);
+
+    z-index: 999999999;
+}
+
+img {
+    max-width: 120px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+body {
+    height: 5000px;
+}
+
+
+
+
+
+.call_btn {
+
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+
+    bottom: 40px;
+    right: 40px;
+}
+
+.call_btn img {
+    max-width: 24px;
+}
+
+.hero_section {
+    height: 300vh;
+    background-color: cornflowerblue;
+
+    padding: 40px;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.content p {
+    margin-left: 96px;
+}
+
+
+h2 {
+    position: sticky;
+    top: 200px;
+    z-index: 1;
+}
+
+
+
+.ocean_section {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    margin-top: 150px;
+}
+
+.poseidon {
+    max-width: 300px;
+}
+
+.sciptr {
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-110%, -90%) rotate(-12deg);
+
+}
